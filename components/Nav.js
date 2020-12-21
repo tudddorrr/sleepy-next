@@ -9,7 +9,7 @@ const Nav = () => (
     <Head>
       <meta charSet='utf-8' />
       <title>Sleepy Studios</title>
-      <meta name='description' content='Games by your favourite developers' />
+      <meta name='description' content='Video games from the developers of Superstatic, Crawle and all your favourite jam games.' />
       <meta name='author' content='Sleepy Studios' />
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
@@ -19,6 +19,9 @@ const Nav = () => (
       <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#111318' />
       <meta name='msapplication-TileColor' content='#111318' />
       <meta name='theme-color' content='#ffffff' />
+      <meta property='og:title' content='Sleepy Studios' />
+      <meta property='og:description' content='Video games from the developers of Superstatic, Crawle and all your favourite jam games' />
+      <meta property='og:image' content='/images/og.png' />
     </Head>
 
     
