@@ -37,12 +37,12 @@ const Nav = () => (
       </ul>
       <ul>
         <li className='icon-link'>
-          <a href='https://twitter.com/sleepystudios' target='_blank' rel='noopener'>
+          <a href='https://twitter.com/sleepystudios' target='_blank' rel='noopener' aria-label='Sleepy Studios on Twitter'>
             <IconBrandTwitter size={32} color='white' />
           </a>
         </li>
         <li className='icon-link'>
-          <a href='https://github.com/sleepystudios' target='_blank' rel='noopener'>
+          <a href='https://github.com/sleepystudios' target='_blank' rel='noopener' aria-label='Sleepy Studios on GitHub'>
             <IconBrandGithub size={32} color='white' />
           </a>
         </li>
@@ -56,7 +56,7 @@ const Nav = () => (
       transition={{ ease: 'easeIn', duration: 0.5 }}
     >
       <Link href='/'>
-        <a>
+        <a aria-label='Go to homepage'>
           <Image width='400' height='104' src='/images/logo.svg' alt='Sleepy Studios' />
         </a>
       </Link>
