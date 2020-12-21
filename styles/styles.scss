@@ -1,0 +1,50 @@
+@import '../node_modules/animate.css/animate.min.css';
+@import 'reset';
+@import 'colours';
+@import 'sizing';
+@import 'credit';
+@import 'fonts';
+@import 'games';
+@import 'nav';
+@import 'text-page';
+@import 'game-page';
+
+@mixin focus-style {
+  box-shadow: 0 0 0 3px $light-blue;
+  outline: none;
+}
+
+html {
+  background-color: $midnight-blue;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: $midnight-blue;
+  color: #fff;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+  transition: 0.2s all;
+  font-weight: bold;
+
+  &:focus {
+    @include focus-style;
+  }
+
+  &:hover {
+    color: $light-blue;
+  }
+}
+
+.featured__img {
+  text-align: center;
+  margin: 22px 0 16px;
+
+  img {
+    border-radius: 8px;
+    border: 2px solid $grey-blue !important;
+  }
+}

@@ -1,0 +1,122 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 16px 0;
+
+  @include medium-screens-up {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @include large-screens-up {
+    margin: 32px 32px 0;
+  }
+
+  ul {
+    display: flex;
+
+    &:first-of-type {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    &:last-of-type {
+      margin-top: 16px;
+
+      @include medium-screens-up {
+        margin-top: 0;
+      }
+    }
+
+    li {
+      animation-duration: 0.75s;
+
+      &.icon-link {
+        vertical-align: middle;
+        
+        &:hover {
+          animation-name: rubberBand;
+        }
+
+        & > a {
+          display: block;
+
+          img {
+            width: 32px;
+            filter: invert(100%);
+          }
+        }
+
+        & + li {
+          margin-left: 16px;
+        }
+      }  
+    }
+  }
+}
+
+.button-link {
+  width: 100%;
+
+  @include medium-screens-up {
+    width: auto;
+  }
+
+  &:hover {
+    @include medium-screens-up {
+      animation-name: pulse;
+    }
+  }
+
+  & > a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 28px;
+    border-radius: 4px;
+    border: 2px solid $white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+
+    &:hover {
+      color: $midnight-blue;
+      background-color: $white;
+    }
+
+    &:focus {
+      border-color: transparent;
+      border-radius: 0;
+    }
+  }
+
+  & + li {
+    margin-top: 16px;
+
+    @include medium-screens-up {
+      margin-left: 16px;
+      margin-top: 0;
+    }
+  }  
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+
+  @include large-screens-up {
+    margin-top: 16px;
+  }
+
+  img {
+    width: 75vw;
+    height: auto;
+  
+    @include medium-screens-up {
+      width: 400px;
+    }
+  }
+}
