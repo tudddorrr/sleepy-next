@@ -21,7 +21,7 @@ const Nav = () => (
       <meta name='theme-color' content='#ffffff' />
       <meta property='og:title' content='Sleepy Studios' key='og:title' />
       <meta property='og:description' content='Video games from the developers of Superstatic, Crawle and all your favourite jam games' key='og:description' />
-      <meta property='og:image' content='/images/og.png' key='og:image' />
+      <meta property='og:image' content='https://sleepystudios.net/images/og.png' key='og:image' />
     </Head>
 
     
