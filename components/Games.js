@@ -4,9 +4,6 @@ import { motion } from 'framer-motion'
 import games from '../data/games'
 
 const Games = () => {
-  // const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)')
-  const reducedMotion = false //!mediaQuery || mediaQuery.matches
-
   return (
     <motion.div
       initial={{ x: -1000, opacity: 0 }}
@@ -18,13 +15,13 @@ const Games = () => {
         {games.map((game) => (
           <li key={game.name} className={`game game--${game.class}`}>
             <div className='inner_content'>
-              {game.video && !reducedMotion &&
+              {game.video &&
                 <video autoPlay loop muted poster={`/images/games/${game.poster}`} preload='none'>
                   <source src={`videos/${game.video}`} />
                 </video>          
               }
 
-              {(!game.video || reducedMotion) &&
+              {!game.video &&
                 <Image width='767' height='250' src={`/images/games/${game.poster}`} alt='' />
               }
 
