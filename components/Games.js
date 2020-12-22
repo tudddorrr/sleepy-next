@@ -18,15 +18,15 @@ const Games = () => {
         {games.map((game) => (
           <li key={game.name} className={`game game--${game.class}`}>
             <div className='inner_content'>
-              {game.video && !reducedMotion &&
+              {/* {game.video && !reducedMotion &&
                 <video autoPlay loop muted poster={`/images/games/${game.poster}`}>
                   <source src={`videos/${game.video}`} />
                 </video>          
-              }
+              } */}
 
-              {(!game.video || reducedMotion) &&
+              {/* {(!game.video || reducedMotion) && */}
                 <Image width='767' height='250' src={`/images/games/${game.poster}`} alt='' />
-              }
+              {/* } */}
 
               <div className='caption'>
                 <p className='title'>
