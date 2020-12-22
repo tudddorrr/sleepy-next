@@ -10,6 +10,9 @@ const Game = ({ game }) => {
     <main id='main' className='content'>
       <Head>
         <title>Sleepy Studios - {game.name}</title>
+        <meta property='og:title' content={`${game.name} by Sleepy Studios`} />
+        <meta property='og:description' content={game.desc} />
+        <meta property='og:image' content={`/images/games/${game.poster}`} />
       </Head>
 
       <motion.div
@@ -58,7 +61,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const game = games.find((g) => g.slug = context.params.slug)
+  const game = games.find((g) => g.slug === context.params.slug)
 
   return {
     props: {
