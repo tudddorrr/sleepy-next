@@ -12,7 +12,7 @@ const Game = ({ game }) => {
         <title>Sleepy Studios - {game.name}</title>
         <meta property='og:title' content={`${game.name} by Sleepy Studios`} key='og:title' />
         <meta property='og:description' content={game.desc} key='og:description' />
-        <meta property='og:image' content={`/images/games/${game.poster}`} key='og:image' />
+        <meta property='og:image' content={`https://sleepystudios.net/images/games/${game.poster}`} key='og:image' />
       </Head>
 
       <motion.div
