@@ -19,9 +19,9 @@ const Nav = () => (
       <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#111318' />
       <meta name='msapplication-TileColor' content='#111318' />
       <meta name='theme-color' content='#ffffff' />
-      <meta property='og:title' content='Sleepy Studios' />
-      <meta property='og:description' content='Video games from the developers of Superstatic, Crawle and all your favourite jam games' />
-      <meta property='og:image' content='/images/og.png' />
+      <meta property='og:title' content='Sleepy Studios' key='og:title' />
+      <meta property='og:description' content='Video games from the developers of Superstatic, Crawle and all your favourite jam games' key='og:description' />
+      <meta property='og:image' content='/images/og.png' key='og:image' />
     </Head>
 
     
