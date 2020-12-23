@@ -39,7 +39,7 @@ export default [
     desc: 'An online team-based building and raiding game. Fight off robots and infiltrate the enemy team\'s base while building up and defending your own',
     poster: 'scrunk.png',
     video: 'scrunk.mp4',
-    external: 'https://sleepystudios.net/scrunk',
+    external: 'https://scrunk.sleepystudios.net',
     class: 'col2',
     slug: 'scrunk'
   },
@@ -94,7 +94,7 @@ export default [
     desc: 'A top-down shooter where you\'re given the ability to possess and control your enemies',
     poster: 'superstatic.png',
     video: 'superstatic.mp4',
-    external: 'https://sleepystudios.net/superstatic',
+    external: 'https://superstatic.sleepystudios.net',
     class: 'col2',
     slug: 'superstatic'
   },
@@ -227,7 +227,7 @@ export default [
     longDesc: 'The game features dynamic environments (through the seasons system) as well as many underlying stats (including blood content, body temperature and combat skills) that you need to manage and control throughout your time in the wilderness',
     poster: 'crawle.png',
     video: 'crawle.mp4',
-    external: 'https://sleepystudios.net/crawle',
+    external: 'https://crawle.sleepystudios.net',
     class: 'col2',
     slug: 'crawle'
   }
