@@ -23,7 +23,7 @@ const Nav = () => (
       <meta property='og:description' content='Video games from the developers of Superstatic, Crawle and all your favourite jam games' key='og:description' />
       <meta property='og:image' content='https://sleepystudios.net/images/og.png' key='og:image' />
 
-      <script async defer data-domain='sleepystudios.net' src='https://stats.sleepystudios.net/js/plausible.js'></script>
+      <script async defer data-domain='sleepystudios.net' src='https://stats.sleepystudios.net/js/plausible.js' />
     </Head>
 
     
