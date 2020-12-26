@@ -62,7 +62,7 @@ const Nav = () => (
     >
       <Link href='/'>
         <a aria-label='Go to homepage'>
-          <Image width='400' height='116' src='/images/logo.png' alt='Sleepy Studios' />
+          <Image width='400' height='115' src='/images/logo.svg' alt='Sleepy Studios' />
         </a>
       </Link>
     </motion.div>
