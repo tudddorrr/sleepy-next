@@ -23,7 +23,13 @@ const Game = ({ game }) => {
         transition={{ ease: 'easeIn', duration: 0.35 }}
       >
         <div className='featured__img'>
-          <Image src={`/images/games/${game.poster}`} alt={`${game.name} gameplay`} width={767} height={250} />
+          <Image
+            src={`/images/games/${game.poster}`}
+            alt={`${game.name} gameplay`}
+            width={767}
+            height={250}
+            loading='eager'
+          />
         </div>
 
         <h1>{game.name}</h1>
