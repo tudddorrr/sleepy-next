@@ -60,11 +60,7 @@ const Nav = () => (
       animate={{ y: 0 }}
       transition={{ ease: 'easeIn', duration: 0.5 }}
     >
-      <Link href='/'>
-        <a aria-label='Go to homepage'>
-          <Image width='400' height='115' src='/images/logo.svg' alt='Sleepy Studios' />
-        </a>
-      </Link>
+      <Image width='400' height='115' src='/images/logo.svg' alt='Sleepy Studios' />
     </motion.div>
   </>
 )

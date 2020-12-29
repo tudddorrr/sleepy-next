@@ -102,22 +102,11 @@ nav {
 }
 
 #logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   margin-top: 48px;
-  margin-bottom: -16px;
+  margin-bottom: -20px;
 
   @include large-screens-up {
     margin-top: 16px;
-  }
-
-  img {
-    width: 75vw;
-    height: auto;
-  
-    @include medium-screens-up {
-      width: 400px;
-    }
   }
 }
