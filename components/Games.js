@@ -15,7 +15,7 @@ const Games = () => {
         {games.map((game) => (
           <li key={game.name} className={`game game--${game.class}`}>
             <div className='inner_content'>
-              {game.video &&
+              {/* {game.video &&
                 <video
                   autoPlay
                   loop
@@ -24,11 +24,11 @@ const Games = () => {
                   preload='none'
                   src={require(`../public/videos/${game.video}`)} 
                 />         
-              }
+              } */}
 
-              {!game.video &&
+              {/* {!game.video && */}
                 <Image width='767' height='250' src={`/images/games/${game.poster}`} alt='' />
-              }
+              {/* } */}
 
               <div className='caption'>
                 <p className='title'>
