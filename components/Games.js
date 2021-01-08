@@ -1,9 +1,12 @@
+import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import games from '../data/games'
 
 const Games = () => {
+  const [imagesLoaded, setImagesLoaded] = useState(0)
+
   return (
     <motion.div
       initial={{ x: -1000, opacity: 0 }}
@@ -12,10 +15,10 @@ const Games = () => {
       transition={{ ease: 'easeInOut', duration: 0.35 }}
     >
       <ul id='games-container' role='list'>
-        {games.map((game) => (
+        {games.map((game, idx) => (
           <li key={game.name} className={`game game--${game.class}`}>
             <div className='inner_content'>
-              {game.video &&
+              {game.video && imagesLoaded >= idx &&
                 <video
                   autoPlay
                   loop
@@ -26,8 +29,14 @@ const Games = () => {
                 />         
               }
 
-              {!game.video &&
-                <Image width='767' height='250' src={`/images/games/${game.poster}`} alt='' />
+              {(!game.video || imagesLoaded < idx) &&
+                <Image
+                  width='767'
+                  height='250'
+                  src={`/images/games/${game.poster}`}
+                  alt=''
+                  onLoad={() => setImagesLoaded(imagesLoaded + 1)}
+                />
               }
 
               <div className='caption'>
