@@ -1,4 +1,10 @@
-module.exports = {
+const withPlugins = require('next-compose-plugins')
+const withVideos = require('next-videos')
+
+module.exports = withPlugins([
+  withVideos
+],
+{
   i18n: {
     locales: ['en'],
     defaultLocale: 'en'
@@ -22,4 +28,4 @@ module.exports = {
       }
     ]
   }
-}
+})

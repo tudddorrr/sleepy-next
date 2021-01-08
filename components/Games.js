@@ -16,9 +16,14 @@ const Games = () => {
           <li key={game.name} className={`game game--${game.class}`}>
             <div className='inner_content'>
               {game.video &&
-                <video autoPlay loop muted poster={`/images/games/${game.poster}`} preload='none'>
-                  <source src={`videos/${game.video}`} />
-                </video>          
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  poster={`/images/games/${game.poster}`}
+                  preload='none'
+                  src={require(`../public/videos/${game.video}`)} 
+                />         
               }
 
               {!game.video &&
