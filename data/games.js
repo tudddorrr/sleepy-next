@@ -1,5 +1,16 @@
 export default [
   {
+    name: 'Shook',
+    published: 'April 2021',
+    platforms: 'Web',
+    desc: 'Guns, fish and fish with guns',
+    longDesc: 'Fishing isn\'t so relaxing when the fish fight back. Go deeper and deeper to find the most expensive catches. Upgrade your arsenal, defend your catches and keep your rope repaired. Made for Ludum Dare 48 where the theme was \'Deeper and deeper\'',
+    download: 'https://sleepystudios.itch.io/shook',
+    poster: 'shook.png',
+    class: 'col1',
+    slug: 'shook'
+  },
+  {
     name: 'Curse of the Loop',
     published: 'October 2020',
     platforms: 'Web',
@@ -29,7 +40,7 @@ export default [
     longDesc: 'Try to escape by solving puzzles and exploring the island. Made for Ludum Dare 45 where the theme was \'Start with nothing\'',
     download: 'https://sleepystudios.itch.io/no-thing-island',
     poster: 'nothingisland.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'no-thing-island'
   },
   {
