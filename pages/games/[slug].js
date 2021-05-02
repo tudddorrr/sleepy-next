@@ -28,7 +28,7 @@ const Game = ({ game }) => {
             alt={`${game.name} gameplay`}
             width={767}
             height={250}
-            loading='eager'
+            quality={100}
           />
         </div>
 

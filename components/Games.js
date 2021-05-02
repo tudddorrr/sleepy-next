@@ -36,6 +36,7 @@ const Games = () => {
                   src={`/images/games/${game.poster}`}
                   alt=''
                   onLoad={() => setImagesLoaded(imagesLoaded + 1)}
+                  quality={100}
                 />
               }
 

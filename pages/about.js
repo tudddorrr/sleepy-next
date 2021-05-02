@@ -23,7 +23,7 @@ const About = () => (
       <p>Our latest game is <a href='https://scrunk.sleepystudios.net?utm_source=sleepy+about' target='_blank' rel='noopener'>Scrunk</a> - an online team-based building and raiding game.</p>
 
       <div className='featured__img'>
-        <Image src='/images/games/scrunk.png' alt='Scrunk gameplay' width={767} height={250} />
+        <Image src='/images/games/scrunk.png' alt='Scrunk gameplay' width={767} height={250} quality={100} />
       </div>
 
       <p>We also made <a href='https://superstatic.sleepystudios.net?utm_source=sleepy+about' target='_blank' rel='noopener'>Superstatic</a> - a top-down shooter where you're given the ability to possess and control your enemies 
