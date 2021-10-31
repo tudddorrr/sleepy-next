@@ -1,5 +1,16 @@
 export default [
   {
+    name: 'Under the Weather',
+    published: 'October 2021',
+    platforms: 'Web',
+    desc: 'Why are these planets trying to kill me?',
+    longDesc: 'Put your ship back together by finding pieces of it scattered around three planets with volatile weather. Made for Ludum Dare 49 where the theme was \'Unstable\'',
+    download: 'https://sleepystudios.itch.io/under-the-weather',
+    poster: 'utw.png',
+    class: 'col2',
+    slug: 'under-the-weather'
+  },
+  {
     name: 'Shook',
     published: 'April 2021',
     platforms: 'Web',
@@ -117,7 +128,7 @@ export default [
     longDesc: 'In each of the 5 stages of the game you are given 3 paper aeroplanes which allow you to interact with the various puzzle objects on the map. You can also recover your aeroplanes if you need to reuse them',
     download: 'https://sleepystudios.itch.io/in-air',
     poster: 'inair.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'in-air'
   },
   {
@@ -132,7 +143,7 @@ export default [
     slug: 'i-wanna-be-the-ghostbuster'
   },
   {
-    name: 'SpaceWatch',
+    name: 'Spacewatch',
     published: 'August 2014',
     platforms: 'Windows, Mac, Linux',
     desc: 'A procedurally generated puzzle game focusing on connecting and traversing planets',
@@ -161,7 +172,7 @@ export default [
     longDesc: 'Made for \'Crappy Game Jam\'',
     download: 'https://sleepystudios.itch.io/twodoors',
     poster: 'twodoors.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'twodoors'
   },
   {
