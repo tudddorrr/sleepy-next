@@ -1,5 +1,16 @@
 export default [
   {
+    name: 'Swerve City',
+    published: 'April 2022',
+    platforms: 'Web, Windows',
+    desc: 'Delay the inevitable by outrunning the ever-increasing police presence',
+    longDesc: 'You\'re on the run in Swerve City. Try and delay the inevitable by outrunning the ever-increasing presence of police for as long as possible. Made for Ludum Dare 50 where the theme was \'Delay the inevitable\'',
+    download: 'https://sleepystudios.itch.io/swerve-city',
+    poster: 'swervecity.png',
+    class: 'col1',
+    slug: 'swerve-city'
+  },
+  {
     name: 'Under the Weather',
     published: 'October 2021',
     platforms: 'Web',
@@ -7,7 +18,7 @@ export default [
     longDesc: 'Put your ship back together by finding pieces of it scattered around three planets with volatile weather. Made for Ludum Dare 49 where the theme was \'Unstable\'',
     download: 'https://sleepystudios.itch.io/under-the-weather',
     poster: 'utw.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'under-the-weather'
   },
   {
