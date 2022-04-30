@@ -7,19 +7,8 @@
   animation-duration: 1s;
   animation-delay: 0s;
 
-  a {
-    display: block;
-
-    img {
-      &:hover {
-        animation-name: headShake;
-        animation-duration: 1s;
-      }
-    }
-  }
-
   p {
     letter-spacing: 2px;
-    font-size: 0.6rem;
+    font-size: 0.75rem;
   }
 }

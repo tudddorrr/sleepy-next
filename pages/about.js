@@ -18,9 +18,9 @@ const About = () => (
     >
       <h1>About</h1>
 
-      <p>Hey there, we're two guys making games in our spare time. We're usually making multiplayer games, jam games and most of the time a mix of the two.</p>
+      <p>Hey, we're two guys making games in our spare time. We're usually making multiplayer games, jam games and sometimes a mix of the two.</p>
 
-      <p>Our latest game is <a href='https://scrunk.sleepystudios.net?utm_source=sleepy+about' target='_blank' rel='noopener'>Scrunk</a> - an online team-based building and raiding game.</p>
+      <p>Our latest full game is <a href='https://scrunk.sleepystudios.net?utm_source=sleepy+about' target='_blank' rel='noopener'>Scrunk</a> - an online team-based building and raiding game.</p>
 
       <div className='featured__img'>
         <Image src='/images/games/scrunk.png' alt='Scrunk gameplay' width={767} height={250} quality={100} />
