@@ -1,8 +1,19 @@
 export default [
   {
+    name: 'Trash Planet',
+    published: 'October 2022',
+    platforms: 'Web',
+    desc: 'Waste-recycling has never been so efficient',
+    longDesc: 'You\'ve accidentally been left behind in a waste recycling unit somewhere in the middle of space. You\'ll need to find your way out while navigating through the various recycling-optimisation mechanisms. Made for Ludum Dare 51 where the theme was \'Every 10 seconds\'',
+    download: 'https://sleepystudios.itch.io/trash-planet',
+    poster: 'trashplanet.png',
+    class: 'col2',
+    slug: 'trash-planet'
+  },
+  {
     name: 'Swerve City',
     published: 'April 2022',
-    platforms: 'Web, Windows',
+    platforms: 'Web',
     desc: 'Delay the inevitable by outrunning the ever-increasing police presence',
     longDesc: 'You\'re on the run in Swerve City. Try and delay the inevitable by outrunning the ever-increasing presence of police for as long as possible. Made for Ludum Dare 50 where the theme was \'Delay the inevitable\'',
     download: 'https://sleepystudios.itch.io/swerve-city',
@@ -150,7 +161,7 @@ export default [
     longDesc: 'The game was made for fun in 48 hours during Halloween and the Day of the Dead',
     download: 'https://sleepystudios.itch.io/i-wanna-be-the-ghostbuster',
     poster: 'ghostbuster.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'i-wanna-be-the-ghostbuster'
   },
   {
@@ -194,7 +205,7 @@ export default [
     longDesc: 'Each party member has their own unique abilities - such as exchanging health for rage, summoning orbs to fight for you and poisoned arrows',
     download: 'https://sleepystudios.itch.io/trigeon',
     poster: 'trigeon.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'trigeon'
   },
   {
