@@ -106,7 +106,7 @@ export default [
     longDesc: 'Made for IO Game Jam',
     download: 'https://sleepystudios.itch.io/boate',
     poster: 'boaty.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'boaty-io'
   },
   {
@@ -172,7 +172,7 @@ export default [
     longDesc: 'The game was made for fun in 48 hours during Halloween and the Day of the Dead',
     download: 'https://sleepystudios.itch.io/i-wanna-be-the-ghostbuster',
     poster: 'ghostbuster.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'i-wanna-be-the-ghostbuster'
   },
   {
