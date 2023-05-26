@@ -1,5 +1,16 @@
 export default [
   {
+    name: 'The Courier of Cobblecove',
+    published: 'May 2023',
+    platforms: 'Web',
+    desc: 'A point-and-click adventure in an increasingly bizarre world',
+    longDesc: 'Take on quests from the strange people of Cobblecove and solve puzzles to complete your deliveries. There\'s lots of deliveries to be made, can you find them all?. Made for Ludum Dare 53 where the theme was \'Delivery\'',
+    download: 'https://sleepystudios.itch.io/courier-of-cobblecove',
+    poster: 'courier.png',
+    class: 'col2',
+    slug: 'courier'
+  },
+  {
     name: 'Trash Planet',
     published: 'October 2022',
     platforms: 'Web',
@@ -7,7 +18,7 @@ export default [
     longDesc: 'You\'ve accidentally been left behind in a waste recycling unit somewhere in the middle of space. You\'ll need to find your way out while navigating through the various recycling-optimisation mechanisms. Made for Ludum Dare 51 where the theme was \'Every 10 seconds\'',
     download: 'https://sleepystudios.itch.io/trash-planet',
     poster: 'trashplanet.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'trash-planet'
   },
   {
@@ -40,7 +51,7 @@ export default [
     longDesc: 'Fishing isn\'t so relaxing when the fish fight back. Go deeper and deeper to find the most expensive catches. Upgrade your arsenal, defend your catches and keep your rope repaired. Made for Ludum Dare 48 where the theme was \'Deeper and deeper\'',
     download: 'https://sleepystudios.itch.io/shook',
     poster: 'shook.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'shook'
   },
   {
@@ -95,7 +106,7 @@ export default [
     longDesc: 'Made for IO Game Jam',
     download: 'https://sleepystudios.itch.io/boate',
     poster: 'boaty.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'boaty-io'
   },
   {
@@ -205,7 +216,7 @@ export default [
     longDesc: 'Each party member has their own unique abilities - such as exchanging health for rage, summoning orbs to fight for you and poisoned arrows',
     download: 'https://sleepystudios.itch.io/trigeon',
     poster: 'trigeon.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'trigeon'
   },
   {
