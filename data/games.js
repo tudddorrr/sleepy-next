@@ -2,7 +2,7 @@ export default [
   {
     name: 'The Courier of Cobblecove',
     published: 'May 2023',
-    platforms: 'Web',
+    platforms: 'Web, Windows, Mac',
     desc: 'A point-and-click adventure in an increasingly bizarre world',
     longDesc: 'Take on quests from the strange people of Cobblecove and solve puzzles to complete your deliveries. There\'s lots of deliveries to be made, can you find them all?. Made for Ludum Dare 53 where the theme was \'Delivery\'',
     download: 'https://sleepystudios.itch.io/courier-of-cobblecove',
