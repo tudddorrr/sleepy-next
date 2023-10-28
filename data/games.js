@@ -1,5 +1,16 @@
 export default [
   {
+    name: 'Depthe',
+    published: 'October 2023',
+    platforms: 'Web, Windows, Mac',
+    desc: 'In Depthe, the crypt reacts to every move you make',
+    longDesc: 'Navigate tiny rooms, pesky snakes and dangerous traps to eventually make it out alive.. Made for Ludum Dare 54 where the theme was \'Limited Space\'',
+    download: 'https://sleepystudios.itch.io/depthe',
+    poster: 'depthe.png',
+    class: 'col1',
+    slug: 'depthe'
+  },
+  {
     name: 'The Courier of Cobblecove',
     published: 'May 2023',
     platforms: 'Web, Windows, Mac',
@@ -29,7 +40,7 @@ export default [
     longDesc: 'You\'re on the run in Swerve City. Try and delay the inevitable by outrunning the ever-increasing presence of police for as long as possible. Made for Ludum Dare 50 where the theme was \'Delay the inevitable\'',
     download: 'https://sleepystudios.itch.io/swerve-city',
     poster: 'swervecity.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'swerve-city'
   },
   {
@@ -51,7 +62,7 @@ export default [
     longDesc: 'Fishing isn\'t so relaxing when the fish fight back. Go deeper and deeper to find the most expensive catches. Upgrade your arsenal, defend your catches and keep your rope repaired. Made for Ludum Dare 48 where the theme was \'Deeper and deeper\'',
     download: 'https://sleepystudios.itch.io/shook',
     poster: 'shook.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'shook'
   },
   {
@@ -84,7 +95,7 @@ export default [
     longDesc: 'Try to escape by solving puzzles and exploring the island. Made for Ludum Dare 45 where the theme was \'Start with nothing\'',
     download: 'https://sleepystudios.itch.io/no-thing-island',
     poster: 'nothingisland.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'no-thing-island'
   },
   {
@@ -172,7 +183,7 @@ export default [
     longDesc: 'The game was made for fun in 48 hours during Halloween and the Day of the Dead',
     download: 'https://sleepystudios.itch.io/i-wanna-be-the-ghostbuster',
     poster: 'ghostbuster.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'i-wanna-be-the-ghostbuster'
   },
   {
@@ -194,7 +205,7 @@ export default [
     longDesc: 'Each player is assigned a random key and have to press it when their key is highlighted. Each time a player gets a successful key press, they are assigned a new random key',
     download: 'https://sleepystudios.itch.io/keyboard-twister',
     poster: 'kt.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'keyboard-twister'
   },
   {
@@ -227,7 +238,7 @@ export default [
     longDesc: 'Made for Cyberpunk Jam',
     download: 'https://sleepystudios.itch.io/vigilante-2084',
     poster: 'vigilante.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'vigilante-2084'
   },
   {
@@ -238,7 +249,7 @@ export default [
     longDesc: 'Made for Ludum Dare 28 where the theme was \'You Only Get One\'',
     download: 'https://sleepystudios.itch.io/you-only-got-one-shot',
     poster: 'yogos.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'you-only-got-one-shot'
   },
   {
