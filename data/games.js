@@ -1,10 +1,21 @@
 export default [
   {
+    name: 'Summoner Survivor',
+    published: 'April 2024',
+    platforms: 'Web',
+    desc: 'Play as a summoner and survive the hordes of creatures invading your world',
+    longDesc: 'Collect souls to summon four powerful allies, each with their own abilities, and strategically deploy them to fend off five different types of enemies. Made for Ludum Dare 55 where the theme was \'Summoning\'',
+    download: 'https://sleepystudios.itch.io/summoner-survivor',
+    poster: 'summoner-survivor.png',
+    class: 'col2',
+    slug: 'summoner-survivor'
+  },
+  {
     name: 'Depthe',
     published: 'October 2023',
     platforms: 'Web, Windows, Mac',
     desc: 'In Depthe, the crypt reacts to every move you make',
-    longDesc: 'Navigate tiny rooms, pesky snakes and dangerous traps to eventually make it out alive.. Made for Ludum Dare 54 where the theme was \'Limited Space\'',
+    longDesc: 'Navigate tiny rooms, pesky snakes and dangerous traps to eventually make it out alive. Made for Ludum Dare 54 where the theme was \'Limited Space\'',
     download: 'https://sleepystudios.itch.io/depthe',
     poster: 'depthe.png',
     class: 'col1',
@@ -18,7 +29,7 @@ export default [
     longDesc: 'Take on quests from the strange people of Cobblecove and solve puzzles to complete your deliveries. There\'s lots of deliveries to be made, can you find them all?. Made for Ludum Dare 53 where the theme was \'Delivery\'',
     download: 'https://sleepystudios.itch.io/courier-of-cobblecove',
     poster: 'courier.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'courier'
   },
   {
@@ -40,7 +51,7 @@ export default [
     longDesc: 'You\'re on the run in Swerve City. Try and delay the inevitable by outrunning the ever-increasing presence of police for as long as possible. Made for Ludum Dare 50 where the theme was \'Delay the inevitable\'',
     download: 'https://sleepystudios.itch.io/swerve-city',
     poster: 'swervecity.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'swerve-city'
   },
   {
@@ -51,7 +62,7 @@ export default [
     longDesc: 'Put your ship back together by finding pieces of it scattered around three planets with volatile weather. Made for Ludum Dare 49 where the theme was \'Unstable\'',
     download: 'https://sleepystudios.itch.io/under-the-weather',
     poster: 'utw.png',
-    class: 'col1',
+    class: 'col2',
     slug: 'under-the-weather'
   },
   {
@@ -95,7 +106,7 @@ export default [
     longDesc: 'Try to escape by solving puzzles and exploring the island. Made for Ludum Dare 45 where the theme was \'Start with nothing\'',
     download: 'https://sleepystudios.itch.io/no-thing-island',
     poster: 'nothingisland.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'no-thing-island'
   },
   {

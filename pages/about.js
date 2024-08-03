@@ -31,9 +31,9 @@ const About = () => (
 
       <p>
         We regularly participate in a variety of game jams, which have lead to games like: {' '}
-        <Link href='/games/no-thing-island'><a>No-thing Island</a></Link> (Ludum Dare 45), {' '}
-        <Link href='/games/entropy'><a>Entropy</a></Link> (Ludum Dare 38), and {' '}
-        <Link href='/games/vigilante-2084'><a>Vigilante 2084</a></Link> (Cyberpunk Jam).
+        <Link href='/games/no-thing-island'>No-thing Island</Link> (Ludum Dare 45), {' '}
+        <Link href='/games/entropy'>Entropy</Link> (Ludum Dare 38), and {' '}
+        <Link href='/games/vigilante-2084'>Vigilante 2084</Link> (Cyberpunk Jam).
       </p>
 
       <p>We're big fans of open source and you can find most of our newer games on <a href='https://github.com/sleepystudios' target='_blank' rel='noopener'>GitHub</a>.</p>

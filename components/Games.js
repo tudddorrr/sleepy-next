@@ -47,9 +47,7 @@ const Games = () => {
                   }
                   {!game.external &&
                     <Link href={`/games/${game.slug}`}>
-                      <a>
-                        {game.name}
-                      </a>
+                      {game.name}
                     </Link>
                   }
                 </p>

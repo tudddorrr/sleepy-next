@@ -34,10 +34,10 @@ const Nav = () => (
     >
       <ul>
         <li className='button-link'>
-          <Link href='/'><a>Home</a></Link>
+          <Link href='/'>Home</Link>
         </li>
         <li className='button-link'>
-          <Link href='/about'><a>About</a></Link>
+          <Link href='/about'>About</Link>
         </li>
       </ul>
       <ul>
