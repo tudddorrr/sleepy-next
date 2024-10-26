@@ -1,5 +1,16 @@
 export default [
   {
+    name: 'Tossed and Found',
+    published: 'October 2024',
+    platforms: 'Web',
+    desc: 'Navigate a cavern of tiny creatures with dubious intentions',
+    longDesc: 'You\'ll be tossed around by creatures and find items to help you along your way. Made for Ludum Dare 56 where the theme was \'Tiny Creatures\'',
+    download: 'https://sleepystudios.itch.io/tossed-and-found',
+    poster: 'tossed-and-found.png',
+    class: 'col1',
+    slug: 'tossed-and-found'
+  },
+  {
     name: 'Summoner Survivor',
     published: 'April 2024',
     platforms: 'Web',
@@ -7,7 +18,7 @@ export default [
     longDesc: 'Collect souls to summon four powerful allies, each with their own abilities, and strategically deploy them to fend off five different types of enemies. Made for Ludum Dare 55 where the theme was \'Summoning\'',
     download: 'https://sleepystudios.itch.io/summoner-survivor',
     poster: 'summoner-survivor.png',
-    class: 'col2',
+    class: 'col1',
     slug: 'summoner-survivor'
   },
   {

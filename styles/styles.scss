@@ -45,6 +45,6 @@ a {
 
   img {
     border-radius: 8px;
-    border: 2px solid $grey-blue !important;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
   }
 }

@@ -18,9 +18,9 @@ const About = () => (
     >
       <h1>About</h1>
 
-      <p>Hey, we're two guys making games in our spare time. We're usually making multiplayer games, jam games and sometimes a mix of the two.</p>
+      <p>Hey, we're two guys making games in our spare time.</p>
 
-      <p>Our latest full game is <a href='https://scrunk.sleepystudios.net?utm_source=sleepy+about' target='_blank' rel='noopener'>Scrunk</a> - an online team-based building and raiding game.</p>
+      <p>Our last big release was <a href='https://scrunk.sleepystudios.net?utm_source=sleepy+about' target='_blank' rel='noopener'>Scrunk</a> - an online team-based building and raiding game.</p>
 
       <div className='featured__img'>
         <Image src='/images/games/scrunk.png' alt='Scrunk gameplay' width={767} height={250} quality={100} />
@@ -31,9 +31,9 @@ const About = () => (
 
       <p>
         We regularly participate in a variety of game jams, which have lead to games like: {' '}
-        <Link href='/games/no-thing-island'>No-thing Island</Link> (Ludum Dare 45), {' '}
-        <Link href='/games/entropy'>Entropy</Link> (Ludum Dare 38), and {' '}
-        <Link href='/games/vigilante-2084'>Vigilante 2084</Link> (Cyberpunk Jam).
+        <Link href='/games/depthe'>Depthe</Link> (Ludum Dare 54), {' '}
+        <Link href='/games/no-thing-island'>No-thing Island</Link> (Ludum Dare 45) and {' '}
+        <Link href='/games/entropy'>Entropy</Link> (Ludum Dare 38).
       </p>
 
       <p>We're big fans of open source and you can find most of our newer games on <a href='https://github.com/sleepystudios' target='_blank' rel='noopener'>GitHub</a>.</p>
