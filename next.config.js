@@ -27,5 +27,8 @@ module.exports = withPlugins([
         permanent: true
       }
     ]
+  },
+  images: {
+    domains: ['trytalo.com']
   }
 })

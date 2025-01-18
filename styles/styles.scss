@@ -8,6 +8,8 @@
 @import 'nav';
 @import 'text-page';
 @import 'game-page';
+@import 'about';
+@import 'talo';
 
 @mixin focus-style {
   box-shadow: 0 0 0 3px $light-blue;

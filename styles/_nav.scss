@@ -39,7 +39,11 @@ nav {
           animation-name: rubberBand;
         }
 
-        & > a {
+        &#talo-icon {
+          width: 26px;
+        }
+
+        &:not(#talo-icon) > a {
           display: block;
 
           img {

@@ -51,6 +51,11 @@ const Nav = () => (
             <IconBrandGithub size={32} color='white' />
           </a>
         </li>
+        <li id='talo-icon' className='icon-link'>
+          <a href='https://trytalo.com?utm_source=sleepy-nav' target='_blank' rel='noopener' aria-label='Talo Game Services'>
+            <Image src='/images/talo.svg' alt='Talo Game Services' width={32} height={32} />
+          </a>
+        </li>
       </ul>
     </motion.nav>
 

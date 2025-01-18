@@ -1,0 +1,57 @@
+#talo {
+  padding: 24px;
+  margin-top: 32px;
+  background: $grey-blue;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+  align-items: center;
+  max-width: 800px;
+
+  @include large-screens-up {
+    display: flex;
+    margin-top: 48px;
+  }
+
+  #talo-img-link {
+    flex-shrink: 0;
+  }
+
+  #talo-img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+
+    @include large-screens-up {
+      width: unset;
+      height: unset;
+    }
+  }
+
+  & > div {
+    @include large-screens-up {
+      margin-left: 24px;
+    }
+
+    & > * + * {
+      margin-top: 8px;
+    }
+
+    @include large-screens-up {
+      & > p {
+        font-size: 0.9rem;
+      }
+    }
+
+    & > h2 {
+      margin-top: 16px;
+
+      @include large-screens-up {
+        margin-top: 0;
+      }
+    }
+
+    a {
+      color: #ff3c7d;
+    }
+  }
+}

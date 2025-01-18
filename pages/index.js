@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Games from '../components/Games'
+import Talo from '../components/Talo'
 
-const Home = ({ games }) => {
+const Home = () => {
   return (
     <main id='main' className='content'>
       <Head>
@@ -9,6 +10,8 @@ const Home = ({ games }) => {
       </Head>
 
       <Games />
+
+      <Talo />
     </main>
   )
 }
